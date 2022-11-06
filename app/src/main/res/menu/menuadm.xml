@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/add_medicine"
+            android:icon="@drawable/add_medicine_draw"
+            android:title="Add Medicine" />
+        <item
+            android:id="@+id/generateBill"
+            android:icon="@drawable/generatebill"
+            android:title="Generate Bill" />
+        <item
+            android:id="@+id/add_vendor"
+            android:icon="@drawable/add_vendor"
+            android:title="Add Supplier" />
+    </menu>

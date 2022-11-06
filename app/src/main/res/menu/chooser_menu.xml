@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item
+        android:id="@+id/userSec"
+        android:icon="@drawable/user_ico"
+        android:title="User" />
+
+</group>
+
+    <group>
+    <item
+        android:id="@+id/admSec"
+        android:icon="@drawable/admin_ico"
+        android:title="Admin" />
+    </group>
+</menu>
