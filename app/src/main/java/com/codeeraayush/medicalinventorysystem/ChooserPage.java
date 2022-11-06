@@ -19,13 +19,16 @@ ActivityChooserPageBinding binding;
         super.onCreate(savedInstanceState);
         binding=ActivityChooserPageBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        replaceFrag(new AddMed());
+
 //getSupportActionBar().hide();
         binding.bottomChooser.setOnItemSelectedListener(item->
         {
             switch (item.getItemId()) {
                 case R.id.userSec:
 //                    replaceFrag(new AddMed());
-                    Toast.makeText(this, "User Section...", Toast.LENGTH_SHORT).show();
+                    replaceFrag(new AddMed());
                     break;
                 case R.id.admSec:
 //                    Toast.makeText(this, "Admin Section...", Toast.LENGTH_SHORT).show();
